@@ -1,0 +1,15 @@
+<i class="fas fa-edit"></i>
+                <i class="fab fa-envira"></i>
+                <i class="fas fa-leaf"></i>
+                <i class="fab fa-pagelines"></i>
+                <i class="fas fa-seedling"></i>
+                <i class="far fa-sticky-note"></i>
+                <i class="fas fa-times-circle"></i>
+                <i class="far fa-edit"></i>
+                <i class="fas fa-sticky-note"></i>
+                <i class="fas fa-list-alt"></i>
+                <i class="far fa-clipboard"></i>
+                <i class="fas fa-plus-circle"></i>
+                <i class="fas fa-chevron-circle-left"></i>
+                <i class="fas fa-chevron-circle-right"></i>
+            

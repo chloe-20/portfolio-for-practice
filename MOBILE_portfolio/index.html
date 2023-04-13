@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">    
+    <title>TRUE SELF_LIFE</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <!-- 어플 이름과 메뉴역할의 삼선아이콘 -->
+    <header>
+        <div><i class="fas fa-bars bar"></i></div>
+        <div>True Self_Life</div>        
+        <div></div>
+    </header>
+
+    <!-- 앱 시작하면 나오는 첫 화면 -->
+    <div class="main_page">
+        <p class="main_msg1">Cure sometimes.<br> 
+           Relieve often,<br>
+           And Comfort always.
+        </p>
+        <p class="main_msg2">
+            가끔 치유하고<br>
+            종종 긴장을 풀고<br>
+            항상 편암함을 느끼세요.
+        </p>
+    </div>
+
+    <!-- 주메뉴 -->
+    <nav>
+        <div class="menu_image">
+            <div></div>
+        </div>
+        <ul class="menu">                        
+            <li><i class="fas fa-seedling"></i>_Mindfulness</li>
+            <li><i class="fas fa-utensils"></i>_Food</li>
+            <li><i class="fas fa-heartbeat"></i>_Activity</li>
+            <li><i class="fas fa-book"></i>_Daily</li>
+            <li class="log login"><i class="fas fa-key"></i><p>_Sign_in</p></li>
+            <li class="log member"><i class="fas fa-user-circle"></i>_Sign_up</li>
+            <li class="log my"><i class="fas fa-cog"></i>_My_page</li>           
+            <li><i class="fas fa-info-circle"></i>_About_TSL</li>
+        </ul>
+        <div class="menu_close">
+            <i class="fas fa-chevron-circle-left"></i> Close
+        </div>         
+    </nav>
+
+    <!-- 각 메뉴에 해당하는 article -->
+    <!-- 메뉴-1(_Mindfulness)에 해당하는 아티클-1 -->
+    <article class="at at1">
+        <div class="at1_background"></div>
+       
+        <!-- contents 크게보기(모달창) -->
+        <div class="at1_detail">
+            <p class="at1_close"><i class="fas fa-times-circle"></i></p>
+            <div class="at1_detail_big"></div>
+        </div>
+
+        <ul class="at1_contents">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>            
+            <li></li>            
+            <li></li>            
+        </ul>
+
+        <!-- 페이지 이동 버튼 -->
+        <div class="at_page_button">
+            <p class="left_button"><i class="fas fa-chevron-circle-left"></i></p>
+            <p class="right_button"><i class="fas fa-chevron-circle-right"></i></p>
+        </div>
+
+        <!-- 페이지 버튼 클릭시 나타나는 안내창 -->
+        <div class="at_page_end">
+            <div>내용을 입력해 주세요</div>
+            <p>Close</p>
+        </div>
+    </article>
+
+    <!-- 메뉴-2(_Food)에 해당하는 아티클-2 -->
+    <article class="at at2">
+        <div class="at2_background"></div>
+        
+        <div class="at2_search">
+            <i class="fas fa-search"></i>
+            <input type="search" placeholder="검색" name="" id="at2_food_search">
+        </div>
+        
+        <ul class="at2_contents">
+            <li>                
+                <div class="at2_food_image"></div>
+                <p class="at2_food_name">BEST EVER GRANOLA</p>
+                <p class="at2_food_creator">Recipe by Pick up Limes</p>
+                <div class="at2_food_info">
+                    <p>CALORIES<br>539.9</p>
+                    <p>PROTEIN<br>15.1 G</p>
+                    <p>PREP TIME<br>10 MINS</p>
+                    <p>COOK TIME<br>30 MINS</p>
+                    <p>SERVINGS<br>7</p>
+                </div>
+            </li>
+            <li>  
+                <div class="at2_food_image"></div>
+                <p class="at2_food_name">QUICK FRIED RICE</p>
+                <p class="at2_food_creator">Recipe by None</p>
+                <div class="at2_food_info">
+                    <p>CALORIES<br>370</p>
+                    <p>PROTEIN<br>19.8 G</p>
+                    <p>PREP TIME<br>10 MINS</p>
+                    <p>COOK TIME<br>10 MINS</p>
+                    <p>SERVINGS<br>4</p>
+                </div>
+            </li>
+            <li>
+                <div class="at2_food_image"></div>
+                <p class="at2_food_name">SIMPLE BAKED TOFU</p>
+                <p class="at2_food_creator">Recipe by Chad Sarno</p>
+                <div class="at2_food_info">
+                    <p>CALORIES<br>227.4</p>
+                    <p>PROTEIN<br>23.8 G</p>
+                    <p>PREP TIME<br>5 MINS</p>
+                    <p>COOK TIME<br>60 MINS</p>
+                    <p>SERVINGS<br>4</p>
+                </div>
+            </li>
+            <li>
+                <div class="at2_food_image"></div>
+                <p class="at2_food_name">OAT COCOA POWER BALLS</p>
+                <p class="at2_food_creator">Recipe by Chad Sarno</p>
+                <div class="at2_food_info">
+                    <p>CALORIES<br>158.1</p>
+                    <p>PROTEIN<br>4.3 G</p>
+                    <p>PREP TIME<br>10 MINS</p>
+                    <p>COOK TIME<br>10 MINS</p>
+                    <p>SERVINGS<br>15</p>
+                </div>
+            </li>
+        </ul>
+
+        <ul class="at2_food at2_food1">
+            <li>
+                <i class="fas fa-paperclip"></i> No added sugar, no oil yet completely delicious no matter.
+            </li>
+            <li>
+                <i class="fas fa-check"></i> INGREDIENTS<br>
+                1 cup (175 g) dates (if dry, soak in warm water until softened, drain)<br>
+                1/2 cup (120 mL) tahini<br>
+                3 cups (270 g) old-fashioned rolled oats (gluten-free if desired)<br>
+                1 cup (140 g) raw mixed nuts (almond and cashew work well), roughly chopped<br>
+                1/2 cup (75 g) raisins<br>
+                1/4 cup (30 g) dried cranberries<br>
+                1/4 cup (35 g) raw sunflower seeds<br>
+                1/4 cup (35 g) raw pumpkin seeds<br>
+                1/4 cup (15 g) unsweetened shredded coconut<br>
+                1/2 teaspoon cinnamon
+            </li>
+            <li>
+                <i class="fas fa-check"></i> DIRECTIONS<br>
+                Preheat oven to 150 C / 300 F.<br>
+                Mix dates, tahini and 3 tablespoons (45 mL) water in a food processor and blend until creamy.<br>
+                And all ingredients to a large bowl and mix to combine.<br>
+                Spread the granola evenly on baking paper and press flat. Bake for 30 minutes, or until golden brown, stopping one or two times to stir and flatten again if needed to prevent burning and to ensure the granola cooks evenly.<br>
+                Let cool and transfer to an airtight container to store. Enjoy with plant-based milk, smoothies, plant-based yogurts or on its own as a snack.
+            </li>
+            <li>
+                <i class="fas fa-check"></i> TIPS<br>
+                Switch up the varieties of raw nuts, raw seeds, and dried fruit for a different variation.<br>
+                Store in an air-tight container on the counter for up to two weeks.<br><br><br>
+            </li>
+            <li>
+                <p>
+                    <i class="fas fa-chevron-circle-left"></i> Close        
+                </p>
+            </li>
+        </ul>
+
+        <ul class="at2_food at2_food2">
+            <li>
+                <i class="fas fa-paperclip"></i> Use this quick and easy recipe as the perfect base for a bowl or wrap. Once you have assembled your core ingredients for your rice base, choose your vegetables, load the dish up with plant-protein, and kick up the spice with some aromatics. Follow the steps to personalize this dish!
+            </li>
+            <li>
+                <i class="fas fa-check"></i> INGREDIENTS<br>
+                2 1/2 cups day old cooked brown rice, or other whole grain<br>
+                2 teaspoons vegetable or peanut oil<br>
+                1 onion, diced<br>
+                3 garlic cloves, minced<br>
+                2 tablespoons seasoned rice vinegar<br>
+                2 tablespoons soy sauce or tamari, low sodium<br>
+                Sea salt and pepper (optional)<br>
+                4 green onions, sliced thin<br>
+                Vegetables of choice<br>
+                Aromatic herbs of choice<br>
+                Plant protein additions of choice (such as beans, shelled endamame, tofu, tempeh, plant-based meats, seitan)
+            </li>
+            <li>
+                <i class="fas fa-check"></i> DIRECTIONS<br>
+                Customize your fried rice! Step 1: Choose 2 cups of plant-based protein or combination of. Some great options are shelled edamame or other beans, diced, ground or minced tofu, tempeh, seitan, or other plant meats such as plant burgers, plant sausages, plant chicken or plant based tuna.<br>
+                Step 2: Choose 1-2 cup of fresh or frozen vegetables you have on hand, diced, shredded, or cubed. Some great options are: frozen peas, corn, diced carrots, celery, zucchini, peppers, broccoli florets, etc.<br>
+                Step 3: Time to kick up the spice, aromatics and flavor components. Choose fresh chilies, hot sauces, chile pastes, minced ginger, lemongrass, kefir lime leaf, aromatic herbs such as basil, cilantro, and/or mint.<br>
+                In mixing bowl, moisten the day-old rice with a few tablespoons of water. This will help separate the grains so the rice is easier to handle while cooking. Set aside.<br>
+                In a large frying pan or wok, heat the vegetable or peanut oil over high heat. Add diced onion for a few minutes until translucent then add in garlic 30 seconds after. Be constantly moving the onions to avoid burning.<br>
+                Once fragrant, add vegetables and protein of choice along with the rice. Mix completely.<br>
+                Add the seasoned vinegar, soy, salt and pepper.<br>
+                Remove from heat and toss with green onions and other herbs of choice.
+            </li>
+            <li>
+                <i class="fas fa-check"></i> TIPS<br>
+                Try fresh chilies to make this dish even more fiery - add them sliced while sautéing the onions. Finish with an additional drizzle of toasted sesame oil and 2 tablespoons of vegan butter, toss and serve.<br>
+                To increase the protein punch, cut back the rice by 1/2 a cup and add in an additional cup of your protein of your choice from step 1. Add in hemp seeds, raw cashews, walnuts or almonds while sautéing the onions, or/and finish your Fried Rice with toasted seeds. You can also pair your Fried Rice with any prepared plant-based protein such as Baked Tofu (see recipe) or Tempeh Bacon (see recipe) or other plant-based meats if you have not already added them.<br><br><br>
+            </li>
+            <li>
+                <p>
+                    <i class="fas fa-chevron-circle-left"></i> Close        
+                </p>
+            </li>
+        </ul>
+
+        <ul class="at2_food at2_food3">
+            <li>
+                <i class="fas fa-paperclip"></i> This simple baked tofu is a versatile plant-based protein that can be added to wraps, pastas, salads, sandwiches or stir fries.
+            </li>
+            <li>
+                <i class="fas fa-check"></i> INGREDIENTS<br>
+                2 blocks tofu, extra firm<br>
+                3 tablespoons tamari or soy sauce, low sodium<br>
+                1 teaspoons onion granules or other spices of choice (optional)<br>
+                1 tablespoon olive oil
+            </li>
+            <li>
+                <i class="fas fa-check"></i> DIRECTIONS<br>
+                To bake the tofu, preheat oven to 375ºF/190ºC.<br>
+                Press the tofu gently between paper towels by hand to allow the excess moisture to be released from it. This will cut down on baking time. Cut each block into 8 slices.<br>
+                On a plate, cover the tofu slabs with the tamari. Spray a sheet pan with spray oil or line with parchment paper. Sprinkle with onion granules, or other spices if using. Place the slabs on lightly oiled sheet pan, or parchment and bake for about 45-60 minutes, turning halfway through the cooking time. Remove and allow to cool.
+            </li>
+            <li>
+                <i class="fas fa-check"></i> TIPS<br>
+                Once you've nailed this basic "formula", experiment with different herbs and seasonings to keep things fresh and exciting.
+            </li>
+            <li>
+                <p>
+                    <i class="fas fa-chevron-circle-left"></i> Close        
+                </p>
+            </li>
+        </ul>
+
+        <ul class="at2_food at2_food4">
+            <li>
+                <i class="fas fa-paperclip"></i> Whip up a batch of these protein-packed power balls for a quick and easy snack whenever you need. Use this recipe as a formula and make it your own by swapping the ingredients for your own favorite varieties.<br><br><br>
+            </li>
+            <li>
+                <i class="fas fa-check"></i> INGREDIENTS<br>
+                2 cups rolled oats (if looking for gluten free, be sure they are labeled as such)<br>
+                1/4 cup almond butter<br>
+                1/2 cup cashews or pecans, raw<br>
+                1/4 cup hemp seeds, hearts<br>
+                2 tablespoons maca or other superfood you wish to add (green powders, spirulina, protein powder etc)<br>
+                8 medjool dates, pitted<br>
+                2 tablespoons maple syrup<br>
+                1 teaspoon cinnamon<br>
+                1/2 teaspoon sea salt<br>
+                Cocoa powder for rolling
+            </li>
+            <li>
+                <i class="fas fa-check"></i> DIRECTIONS<br>
+                Using a food processor, add the oats and cashews and blend until a coarse meal.<br>
+                Add the maca, hemp seeds, cinnamon and salt and pulse a few times to mix.<br>
+                Add the maple syrup, almond butter and pulse. Start adding the dates slowly.<br>
+                Depending on how dry the dates are you may need to add a few less or few more.<br>
+                The mixture should be dry enough to form into balls but not too sticky. If your mixture is too dry, add a bit more date, maple or almond butter, if it’s too wet add a bit more oatmeal.<br>
+                Roll into balls and roll in cocoa powder.
+            </li>
+            <li>
+                <i class="fas fa-check"></i> TIPS<br>
+                Mix in plant-based chocolate chips by hand for a decadent version.<br>
+                To increase the protein in the recipe, add your favorite plant-based protein powder in the dry ingredients. Depending on how much you add you may need to add a bit more of the wet ingredients.<br><br><br>
+            </li>
+            <li>
+                <p>
+                    <i class="fas fa-chevron-circle-left"></i> Close        
+                </p>
+            </li>
+        </ul>
+        
+        <!-- 페이지 이동 버튼 -->
+        <div class="at_page_button">
+            <p class="left_button"><i class="fas fa-chevron-circle-left"></i></p>
+            <p class="right_button"><i class="fas fa-chevron-circle-right"></i></p>
+        </div>
+
+        <!-- 페이지 버튼 클릭시 나타나는 안내창 -->
+        <div class="at_page_end">
+            <div>내용을 입력해 주세요</div>
+            <p>Close</p>
+        </div>
+    </article>
+
+    <!-- 메뉴-3(_Activity)에 해당하는 아티클-3 -->
+    <article class="at at3">
+        <div class="at3_background"></div>
+        <p class=at3_title>Decide on a random draw!</p>
+        <p class="at3_point"><i class="fas fa-bolt"></i></p>
+    
+        <div class="at3_wrap">
+            <div class="part part1"><div class="part_text1" contenteditable="true"></div></div>
+            <div class="part part2"><div class="part_text2" contenteditable="true"></div></div>
+            <div class="part part3"><div class="part_text3" contenteditable="true"></div></div>
+            <div class="part part4"><div class="part_text4" contenteditable="true"></div></div>
+        </div>
+        <ul class="at3_btn">
+            <li class="start">START</li>
+            <li class="reset">RESET</li>
+            <li class="stop">STOP</li>
+        </ul>       
+    </article>
+    
+    <!-- 메뉴-4(_Daily)에 해당하는 아티클-4 -->
+    <article class="at at4">
+        <!-- <textarea name="application_form"> 입력할 내용 </textarea> -->
+
+        <div class="at4_background"></div>
+        
+        <ul class="at4_contents">
+            <li>
+                <p>Memo_1</p>
+                <form action="">    
+                    <div contenteditable="true" class="memo_area1"></div>
+                    <input type="reset" value="Delete" id="memo_reset1">
+                    <input type="button" value="Save" class="submit_send">
+                </form>            
+            </li>
+            <li>
+                <p>Memo_2</p>
+                <form action="">    
+                    <div contenteditable="true" class="memo_area2"></div>
+                    <input type="reset" value="Delete" id="memo_reset2">
+                    <input type="button" value="Save" class="submit_send">
+                </form>            
+            </li>
+        </ul>    
+    </article>
+    
+    <!-- 주메뉴-5와 관련된 아티클-5(로그인 관련) -->
+    <article class="at at5"> 
+        <div class="at5_background"></div>
+
+        <div class="at5_sign_in">
+            <p>
+                <label for="id" class="idc">ID</label>
+                <input type="text" id="id">                
+            </p>
+            <p>
+                <label for="pw" class="pwc">Password</label>
+                <input type="password" id="pw">
+            </p>
+            <p>
+                <input type="submit" class="login_btn" id="login_ok" value="Log In">
+            </p>
+        </div>
+        
+        <!-- 로그인 양식과 다르면 나타나는 안내창 -->
+        <div class="at5_info">
+            <div>내용을 입력해주세요</div>
+            <p>Close</p>
+        </div>
+    </article>
+
+    <!-- 주메뉴-5와 관련된 아티클-5(회원가입 관련) -->
+    <article class="at at6">
+        <div class="at6_background"></div>
+        
+        <form name="user_join">
+            <ul class="join_box">
+                <li>Your Email(ID)<br>
+                    <input type="text" name="user_id" placeholder="Enter your ID" autofocus>
+                </li>
+                <li>Username<br>
+                    <input type="text" name="user_name" placeholder="Enter your Username"> <br>
+                </li>
+                <li>Password<br>
+                    <input type="password" name="user_pw1" placeholder="Enter your Password">
+                </li>
+                <li>Confirm Password<br> 
+                    <input type="password" name="user_pw2" placeholder="Enter your Password">
+                </li> 
+                <li>
+                    <input type="submit" class="signup_btn" id="signup_ok" value="Sign Up">
+                </li>
+            </ul>
+        </form>
+    </article>
+    
+    <article class="at at7">마이페이지-준비중입니다</article>
+
+    <article class="at at8">
+        <div class="at8_background">
+            <h1>_About_TSL</h1>
+            <p class="tsl_info">
+                지친 일상 속<br> 따스한 위로를 받는 공간<br>
+                나를 돌보고 나를 챙기는 시간<br>
+                함께해요<br>
+                True_Self_Life<br><br>
+            </p>            
+        </div>        
+    </article>    
+</body>
+</html>
+
