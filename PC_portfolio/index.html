@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>IY_Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- //CSS -->
+
+    <!-- Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/ui.js"></script>
+    <!-- //Script -->
+  </head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>The Slow And Steady_IY</h1>
+    <div class="logo"></div>    
+  </header>
+  <!-- //Header -->
+
+  <!-- Nav -->
+  <nav>
+    <div>About_IY</div>
+    <div>Web_Portfolio</div>
+    <div>Video_Portfolio</div>
+    <div>True_Self</div>
+    <div>If_You_Want</div>
+  </nav>
+  <!-- //Nav -->
+
+  <!-- 메인화면 img -->
+  <div class="main_img"></div>  
+  
+  <!-- 메뉴에 해당하는 페이지 작업 -->
+  <section class="sec">
+    <!-- 메뉴-1과 연결되는 article-1 -->
+    <article class="at at1" id="ati1">
+      
+      <!-- Chart 표현할 div -->
+      <div class="my_box">
+        <!-- Chart 제목 -->
+        <p class="chart_title">Multidisciplinary Designer</p>
+        <!-- Y축 -->
+        <div class="chart_y">
+          <p></p>
+          <p>EXPERT</p>
+          <p>ADVANCED</p>
+          <p>INTERMEDIATE</p>
+          <p>ELEMENTARY</p>
+          <p>BEGINNER</p>
+        </div>
+        <!-- X축 3 종류(종합,웹,영상) -->
+        <ul class="chart_x">
+          <li class="my_box_stick my_box_stick1">
+            <div class="x_bar1"></div>
+            <div class="x_bar2"></div>
+            <div class="x_bar3"></div>
+            <div class="x_bar4"></div>
+          </li>
+          <li class="my_box_stick my_box_stick2">
+            <div class="x_bar5"></div>
+            <div class="x_bar6"></div>
+            <div class="x_bar7"></div>
+            <div class="x_bar8"></div>
+          </li>
+          <li class="my_box_stick my_box_stick3">
+            <div class="x_bar9"></div>
+            <div class="x_bar10"></div>
+            <div class="x_bar11"></div>
+            <div class="x_bar12"></div>
+          </li>
+        </ul>
+        <!-- Chart 이동버튼 -->
+        <ul class="my_box_btn">
+          <li class="btn_left">Left</li>
+          <li class="btn_right">Right</li>
+        </ul>
+      </div>
+      <!-- Chart 이동버튼 클릭시 나타나는 안내창 -->
+      <div class="chart_end">
+        더이상 차트가 없습니다
+        <p>Close</p>
+      </div>
+
+      <!-- Chart on/off 아이콘 -->
+      <div class="my_icon">
+        <i class="fas fa-lightbulb"></i>
+        <p >Turn Off</p>
+      </div>
+    </article>
+
+    <!-- 메뉴-2과 연결되는 article-2 작업 -->
+    <article class="at at2" id="ati2">
+      <ul class="web_detail" id="web_detail_1">
+        <li></li>
+        <li>Project_The Slow And Steady_IY</li>
+        <li>Description</li>
+        <li>
+          0. 링크 <a href="https://chloe20choi.netlify.app/">포트폴리오를 보시려면 이곳을 클릭해주세요!</a><br>
+          1. PC버젼 포트폴리오<br>
+          2. 포트폴리오 작업물을 전시하기 위해 제작<br>
+          3. 심플한 레이아웃과 목적에 맞는 메뉴를 구성하였습니다.
+        </li>
+        <li><i class="far fa-times-circle" onclick="detail_close_func()"></i></li>
+      </ul>
+      <ul class="web_detail" id="web_detail_2">
+        <li></li>
+        <li>Project_True_Self_Life</li>
+        <li>Description</li>
+        <li>
+          0. 링크 <a href="https://true-self-life.netlify.app/">포트폴리오를 보시려면 이곳을 클릭해주세요!</a><br>
+          1. MOBILE버젼 포트폴리오<br>
+          2. 지친 마음을 위로받을 수 있는 어플리케이션 제작<br>
+          3. 일상에서 마음챙김 할 수 있는 방법을 생각해보고 어플로 구현하였습니다.
+        </li>
+        <li><i class="far fa-times-circle" onclick="detail_close_func()"></i></li>
+      </ul>
+      <ul class="web_detail" id="web_detail_3">
+        <li></li>
+        <li>Project_True_Self_Time</li>
+        <li>Description</li>
+        <li>
+          0. 링크 <a href="https://true-self-time.netlify.app/">포트폴리오를 보시려면 이곳을 클릭해주세요!</a><br>
+          1. 반응형 웹사이트 포트폴리오<br>
+          2. 기존 웹사이트를 반응형으로 제작<br>
+          3. PC전용의 카페 웹사이트를 참고해 반응형으로 제작하였습니다. 
+        </li>
+        <li><i class="far fa-times-circle" onclick="detail_close_func()"></i></li>
+      </ul>
+      <ul class="web_detail" id="web_detail_4">
+        <li></li>
+        <li>Project_EX01</li>
+        <li>Description</li>
+        <li>
+          0. 링크 <a href="/EX01_Parallax/index.html">포트폴리오를 보시려면 이곳을 클릭해주세요!</a><br>
+          1. 웹 레이아웃 중 Parallax 연습<br>
+          2. 생활코딩 강의를 보며 만들어본 mini Project<br>
+          3. 웹디자인적인 표현방법을 연습해보고자 만들었습니다.
+         </li>
+        <li><i class="far fa-times-circle" onclick="detail_close_func()"></i></li>
+      </ul> 
+      <ul class="web_detail" id="web_detail_5">
+        <li></li>
+        <li>Project_EX02</li>
+        <li>Description</li>
+        <li>
+          0. 링크 <a href="/EX02_Holy garail layout/index.html">포트폴리오를 보시려면 이곳을 클릭해주세요!</a><br>
+          1. 웹 레이아웃 중 Holy Grail Layout 연습<br>
+          2. 생활코딩 강의를 보며 만들어본 mini Project<br>
+          3. 반응형 웹사이트 제작전 레이아웃 연습용으로 만들었습니다.
+        </li>
+        <li><i class="far fa-times-circle" onclick="detail_close_func()"></i></li>
+      </ul>
+
+      <ul class="web_small" id="web_img">
+        <li id="web_img_1">
+          <p>P01</p>
+          <div>P01</div>
+        </li>
+        <li id="web_img_2">
+          <p>P02</p>
+          <div>P02</div>
+        </li>
+        <li id="web_img_3">
+          <p>P03</p>
+          <div>P03</div>
+        </li>
+        <li id="web_img_4">
+          <p>P04</p>
+          <div>P04</div>
+        </li>
+        <li id="web_img_5">
+          <p>P05</p>
+          <div>P05</div>
+        </li>        
+      </ul>
+    </article>
+
+    <!-- 메뉴-3과 연결되는 article-3 작업 -->
+    <article class="at at3" id="ati3">
+      <ul class="video_detail" id="video_detail_1">
+        <li></li>
+        <li>Project_CTA 영상</li>
+        <li>Description</li>
+        <li>
+          0. 링크 <a href="https://drive.google.com/file/d/1EDrSgzpCMVwPAQ3I_QHa4wrNWSffaxk0/view?usp=sharing">영상을 보시려면 이곳을 클릭해주세요!</a><br>
+          1.Running time: 21 초 / 제작기간: 2 주<br>
+          2.사용툴: 애프터이팩츠, 포토샵, 일러스트레이터<br>
+          3.나이키 브랜드의 에어조던 운동화를 주제로 1대1 비율의 프로모션 영상을 제작.
+        </li>
+        <li><i class="far fa-times-circle" onclick="detail_close_func()"></i></li>
+      </ul>
+      <ul class="video_detail" id="video_detail_2">
+        <li></li>
+        <li>Project_타이포그래피</li>
+        <li>Description</li>
+        <li>
+          0. 링크 <a href="https://drive.google.com/file/d/1pdMSvRnInWXFf9AVLUChnH3f0xrb1XNI/view?usp=sharing">영상을 보시려면 이곳을 클릭해주세요!</a><br>
+          1.Running time: 50 초 / 제작기간: 2 주<br>
+          2.사용툴: 애프터이팩츠, 포토샵, 일러스트레이터<br>
+          3.선우정아의 ‘봄처녀’ 노래에 맞춰 몽환적이면서 산뜻한 봄 느낌의 타이포 애니메이션 영상을 제작.
+        </li>
+        <li><i class="far fa-times-circle" onclick="detail_close_func()"></i></li>
+      </ul>
+      <ul class="video_detail" id="video_detail_3">              
+        <li></li>
+        <li>여행지 홍보영상 제작</li>
+        <li>Description</li>
+        <li>
+          0. 링크 <a href="https://drive.google.com/file/d/1EzrX0v8xvuotRjL2UvIyjJKDQEOZxz1I/view?usp=sharing">영상을 보시려면 이곳을 클릭해주세요!</a><br>
+          1.Running time: 43초 / 제작기간: 1 ~ 2 주<br>
+          2.사용툴: 프리미어 프로<br>
+          3.호주의 골드코스트 여행지 영상을 영상의 느낌과 어울리는 사운드 소스를 찾고 여행영상 소스를 컷편집하여 홍보 영상을 제작.
+        </li>
+        <li><i class="far fa-times-circle" onclick="detail_close_func()"></i></li>
+      </ul>
+      <ul class="video_detail" id="video_detail_4">
+        <li></li>
+        <li>Project_리듬편집영상 제작</li>
+        <li>Description</li>
+        <li>
+          1.Running time: 30초 / 제작기간: 1 주<br>
+          2.사용툴: 프리미어 프로<br>
+          3.리듬감 있는 사운드 소스의 리듬점에 맞춰 사운드가 포함된 짧은 영상 소스들을 편집하여 리듬감이 더 풍부하게 느껴지는 영상을 만들었습니다. 
+        </li>
+        <li><i class="far fa-times-circle" onclick="detail_close_func()"></i></li>
+      </ul>
+      <ul class="video_detail" id="video_detail_5">
+        <li></li>
+        <li>Project_드라마OST M/V 제작</li>
+        <li>Description</li>
+        <li>         
+          1.Running time: 46초 / 제작기간: 1 주 <br>
+          2.사용툴: 프리미어 프로<br>
+          3.‘싸이코지만 괜찮아’ 드라마의 OST에 맞춰 스틸이미지를 사용하여 두 주인공의 아련한 느낌을 살려주는 M/V영상을 만들었습니다.
+        </li>
+        <li><i class="far fa-times-circle" onclick="detail_close_func()"></i></li>
+      </ul>
+
+      <ul class="video_small" id="video_img">
+        <li id="video_img_1"><P>P01</P>
+          <div>P01</div>
+        </li>
+        <li id="video_img_2"><P>P02</P>
+          <div>P02</div>
+        </li>
+        <li id="video_img_3"><P>P03</P>
+          <div>P03</div>
+        </li>
+        <li id="video_img_4"><P>P04</P>
+          <div>P04</div>
+        </li>
+        <li id="video_img_5"><P>P05</P>
+          <div>P05</div>
+        </li>        
+    </ul>
+    </article>
+
+    <!-- 메뉴-4과 연결되는 article-4 작업 -->
+    <article class="at at4" id="ati4">
+      <div class="canvas">
+        <div><img src="img/nature.png" alt=""></div>
+        <div><img src="img/trip.png" alt=""></div>
+        <div><img src="img/music.png" alt=""></div>
+        <div><img src="img/coffee.jpg" alt=""></div>
+        <div><img src="img/bike.png" alt=""></div>
+        <div><img src="img/hiking.png" alt=""></div>
+        <div><img src="img/pilates.png" alt=""></div>
+      </div>      
+    </article>
+  </section>
+
+  <!-- 메뉴-5와 연결된 연락처 div -->
+  <div class="card">  
+    <div class="card_info1">
+      <h2 class="card_title">Please Contact Me</h2><br>
+      Name_CHOLE IY CHOI<br><br>
+      KakaoTalk ID_000000<br>
+      Line ID_000000<br>
+      E-mail_000@gmail.com
+    </div>
+    <div class="card_info2">
+      <div><i class="fab fa-instagram"></i></div>
+      <div><i class="fab fa-facebook"></i></div>
+      <div><i class="fab fa-youtube"></i></div>
+    </div>
+    <div class="card_close"><i class="far fa-times-circle"></i></div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="copyright">Copyright 2021. Chloe_IY_CHOI All Rights Reserved.</footer>
+  <!-- //Footer -->
+</body>
+</html>

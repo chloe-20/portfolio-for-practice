@@ -1,0 +1,36 @@
+.tree {
+    color: rgb(49, 49, 49);
+}
+.tree, .tree ul {
+    list-style: none;
+    padding-left: 17px;
+}
+.tree *:before {
+    width: 17px; height: 17px;
+    display: inline-block;
+}
+.tree label {
+    cursor: pointer;
+}
+.tree label:before {
+    content: '\f256';
+    font-family: fontello;
+}
+.tree a {
+    text-decoration: none;
+    color: gray;
+}
+.tree a:before {
+    content: '\e801';
+    font-family: fontello;
+}
+.tree input[type="checkbox"] {
+    display: none;    
+}
+.tree input[type="checkbox"]:checked~ul {
+    display: none;    
+}
+.tree input[type="checkbox"]:checked+label:before {
+    content: '\f255';
+    font-family: fontello;
+}
